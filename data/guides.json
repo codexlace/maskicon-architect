@@ -1,0 +1,31 @@
+{
+  "viewBox": [
+    0,
+    0,
+    512,
+    512
+  ],
+  "centerlineX": 256,
+  "eyeLineY": 220,
+  "mouthArcY": 310,
+  "safeArea": {
+    "x": 64,
+    "y": 64,
+    "width": 384,
+    "height": 384
+  },
+  "doodleZones": [
+    {
+      "x": 120,
+      "y": 140,
+      "width": 70,
+      "height": 70
+    },
+    {
+      "x": 322,
+      "y": 140,
+      "width": 70,
+      "height": 70
+    }
+  ]
+}

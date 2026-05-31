@@ -1,0 +1,45 @@
+{
+  "shapes": [
+    "shield",
+    "circle",
+    "diamond",
+    "crest",
+    "cloud",
+    "star",
+    "squircle",
+    "blob",
+    "polygon",
+    "capsule",
+    "mascot-mask"
+  ],
+  "eyes": [
+    "oval",
+    "sleepy",
+    "spark",
+    "round",
+    "slash",
+    "star",
+    "heart",
+    "moon"
+  ],
+  "mouths": [
+    "smile",
+    "neutral",
+    "stitch",
+    "surprised",
+    "mischief",
+    "fang"
+  ],
+  "wordmarks": [
+    "block",
+    "mono",
+    "retro",
+    "gothic",
+    "script",
+    "rounded",
+    "outline",
+    "blueprint",
+    "badge",
+    "capsule"
+  ]
+}

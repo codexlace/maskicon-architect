@@ -1,0 +1,17 @@
+{
+  "name": "MASKicon Mascot",
+  "role": "Guide, representative character, demo object, and branding symbol.",
+  "expressions": [
+    "neutral",
+    "happy",
+    "surprised",
+    "sleepy",
+    "mischievous"
+  ],
+  "styles": [
+    "blueprint",
+    "clean-vector",
+    "sticker",
+    "mini"
+  ]
+}

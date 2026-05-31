@@ -1,0 +1,38 @@
+.app-shell{
+  display:grid;
+  grid-template-columns: 15.5rem minmax(0,1fr) 21rem;
+  grid-template-rows: 4.5rem minmax(0,1fr);
+  gap:.75rem;
+  height:100vh;
+  padding:.75rem;
+}
+.topbar{
+  grid-column:1/-1;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:.65rem 1rem;
+  border:1px solid var(--border);
+  background:var(--panel);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.brand{display:flex;align-items:center;gap:.75rem;font-weight:900;letter-spacing:.08em}
+.brand img{height:2.35rem}
+.left-panel,.right-panel,.canvas-panel{
+  min-height:0;
+  border:1px solid var(--border);
+  background:var(--panel);
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  overflow:hidden;
+}
+.left-panel{padding:.8rem}
+.canvas-panel{position:relative}
+.right-panel{padding:1rem;overflow:auto}
+@media(max-width:980px){
+  body{overflow:auto}
+  .app-shell{height:auto;min-height:100vh;grid-template-columns:1fr;grid-template-rows:auto auto 70vh auto}
+  .topbar,.left-panel,.canvas-panel,.right-panel{grid-column:1}
+  .left-panel .module-list{grid-template-columns:repeat(4,1fr)}
+}
