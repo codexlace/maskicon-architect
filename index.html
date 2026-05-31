@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>MASKicon Architect</title>
+  <meta name="theme-color" content="#062a5f">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icons/app-icon-192.png">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/theme.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/blueprint.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <img src="./assets/ui/logo.svg" alt="" aria-hidden="true">
+        <span>SVG Blueprint Icon Workshop</span>
+      </div>
+      <div class="row" style="max-width:26rem">
+        <button class="button" id="saveProject">Save Local</button>
+        <button class="button" id="resetProject">Reset</button>
+        <button class="button primary" id="exportNow">Quick Export</button>
+      </div>
+    </header>
+
+    <aside class="left-panel" aria-label="Modules">
+      <p class="pill">MODULES</p>
+      <nav class="module-list" style="margin-top:.8rem">
+        <button class="module-tab" data-module="shapes" aria-selected="true">▱ Shapes</button>
+        <button class="module-tab" data-module="eyes" aria-selected="false">◉ Eyes</button>
+        <button class="module-tab" data-module="mouths" aria-selected="false">⌣ Mouths</button>
+        <button class="module-tab" data-module="mascot" aria-selected="false">☻ Mascot</button>
+        <button class="module-tab" data-module="wordmark" aria-selected="false">Aa Wordmark</button>
+        <button class="module-tab" data-module="assembly" aria-selected="false">⛶ Assembly</button>
+        <button class="module-tab" data-module="export" aria-selected="false">⇩ Export</button>
+      </nav>
+      <p class="micro" style="margin-top:1rem">The mascot is the guide/demo object. The product output is modular icons.</p>
+    </aside>
+
+    <section class="canvas-panel" aria-label="Blueprint canvas">
+      <div class="canvas-toolbar">
+        <div class="cluster"><span class="pill">512×512 SVG</span><span class="pill">Guided Safe Area</span></div>
+        <div class="cluster"><span class="pill">Offline Ready</span></div>
+      </div>
+      <svg id="iconCanvas" class="icon-canvas" viewBox="0 0 512 512" role="img" aria-label="MASKicon Architect SVG canvas"></svg>
+    </section>
+
+    <aside class="right-panel" aria-label="Controls">
+      <p class="pill">RIGHT PANEL</p>
+      <h1 id="moduleTitle" style="font-size:1.3rem;margin:.65rem 0 1rem">Shape Generator</h1>
+      <div id="dynamicControls" class="control-stack"></div>
+    </aside>
+  </main>
+  <script type="module" src="./js/app.js"></script>
+  <script src="./sw-register.js"></script>
+</body>
+</html>
