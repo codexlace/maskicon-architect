@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 80">
+  <rect width="360" height="80" rx="16" fill="#062a5f"/>
+  <path d="M42 15l26 9 22-9 18 15-5 28-35 12-35-12-5-28z" fill="none" stroke="#f7fbff" stroke-width="4"/>
+  <path d="M68 19v48M38 42h60" stroke="#66e6ff" stroke-dasharray="5 5" stroke-width="1.5"/>
+  <text x="125" y="49" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#f7fbff" letter-spacing="1">MASKicon</text>
+  <text x="270" y="49" font-family="Arial, sans-serif" font-size="16" fill="#66e6ff" letter-spacing="2">ARCHITECT</text>
+</svg>
