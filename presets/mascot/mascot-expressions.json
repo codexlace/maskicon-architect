@@ -1,0 +1,22 @@
+{
+  "neutral": {
+    "eyes": "oval",
+    "mouth": "neutral"
+  },
+  "happy": {
+    "eyes": "sleepy",
+    "mouth": "smile"
+  },
+  "surprised": {
+    "eyes": "round",
+    "mouth": "surprised"
+  },
+  "sleepy": {
+    "eyes": "sleepy",
+    "mouth": "neutral"
+  },
+  "mischievous": {
+    "eyes": "slash",
+    "mouth": "mischief"
+  }
+}
